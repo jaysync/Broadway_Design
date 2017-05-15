@@ -6,33 +6,47 @@
     <link type="text/css" rel="stylesheet" href="./resources/css/style.css">
   </head>
   <body>
-    <h1>Broadway Design</h1>
-    <ul>
-      <li>Home</li>
-      <li>Process</li>
-      <li>Work</li>
-      <li>Team</li>
-      <li>Contact</li>
-    </ul>
-    <h2>Our Process</h2>
-    <img src="./resources/identify.svg">
-    <h3>Identify</h3>
-    <p>We focus on the most important details.</p>
-    <img src="./resources/understand.svg">
-    <h3>Understand</h3>
-    <p>We study our projects inside and out.</p>
-    <img src="./resources/execute.svg">
-    <h3>Execute</h3>
-    <p>We put everything we have into our work.</p>
-    <h3>Designed in New York</h3>
-    <h3>Portfolio</h3>
+    <div class="tophalf">
+      <h1>Broadway Design</h1>
+    <!--Table of contents-->
+      <ul>
+        <li><a href="./index.html">Home</a></li>
+        <br>
+        <li><a href="#process">Process</a></li>
+        <br>
+        <li><a href="#portfolio">Work</a></li>
+        <br>
+        <li><a href="#team">Team</a></li>
+        <br>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </div>
+    <!--Process-->
+    <div id="process">
+      <h2>Our Process</h2>
+      <img src="./resources/identify.svg">
+      <h3>Identify</h3>
+      <p>We focus on the most important details.</p>
+      <img src="./resources/understand.svg">
+      <h3>Understand</h3>
+      <p>We study our projects inside and out.</p>
+      <img src="./resources/execute.svg">
+      <h3>Execute</h3>
+      <p>We put everything we have into our work.</p>
+    </div>
+
+    <h3 id="designed">Designed in New York</h3>
+    <!--Portfolio-->
+    <h3 id="portfolio">Portfolio</h3>
     <p>Coming Soon</p>
-    <h3>Team</h3>
+    <!--Team-->
+    <h3 id="team">Team</h3>
     <p>We're Hiring!</p>
-    <h3>Contact</h3>
+    <!--Contact-->
+    <h3 id="contact">Contact</h3>
     <p>Phone: (555)-555-5555</p>
     <p>E-mail: test@example.com</p>
     <p>Twitter: @test</p>
-    <p>&#169 Broadway 2017 Home About Work Team Contact</p>
+    <p id="copyright">&#169 Broadway 2017 <span class="footer"><a href="./index.html">Home</a> <a href="#process">About</a> <a href="#portfolio">Work</a> <a href="#contact">Contact</a></span></p>
   </body>
 </html>
